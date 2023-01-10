@@ -22,3 +22,9 @@
 - http://google.com/teapot -iL: 301 Moved Permanently
 - http://www.google.com/teapot -i: 418 I'm a Teapot
 - http://www.google.com/teapot -iL: 418 I'm a Teapot
+
+**Question 7:** What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+- A form field was added in the post version with mini field storage containing characters 'X' and 'Y'. This is useful for when we want to store some data on the server. For example, we may be writing a forum post where we give it a name, and some text.
+
+**Question 8:** What is the raw URL to your Python script on GitHub?
+- https://raw.githubusercontent.com/Sean-Meyers/CMPUT404Lab1/main/requestsVer.py
